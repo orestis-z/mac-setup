@@ -1,4 +1,4 @@
-# Mac OS X setup
+# MacOS setup
 
 Facing the setup of a new machine, here's are instructions to set up the mac computer environment I like to work with.
 
