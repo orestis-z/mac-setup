@@ -108,6 +108,7 @@ brew install go
 # Python
 brew install python
 brew install python3
+brew install ipython
 
 # JS
 brew install node
