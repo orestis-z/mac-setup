@@ -1,22 +1,26 @@
 # Mac OS X setup
-Facing the setup of a new machine, here's a very brief and basic list of the usual suspects, related to the setup of a mac computer to work with.
+
+Facing the setup of a new machine, here's are instructions to set up the mac computer environment I like to work with.
 
 ## Homebrew & cask
-The package manager is the default first thing I always install. Simply following the default steps. Homebrew downloads and installs the Command Line Tools for Xcode, so we're all good. `brew cask` handles the tapping, so we are cask-enabled too. Finally, `brew-cask-upgrade` provides upgrade-like capabilities to cask, and we're all set.
+
+Install Homebrew and Cask, a software package management system that simplifies the installation of software on Apple's macOS:
+
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 brew cask
 brew tap buo/cask-upgrade
 ```
 ## Mac App Store
-If some previously purchased software from the Mac App Store needs to be included, we can use `mas` to ease the installs.
+Install `mas`, a CLI for the App Store:
 
 ```bash
 brew install mas
 ```
 
 ## Curated list of apps
-Once we have `homebrew`, `cask` (and `mas` if needed) we're ready to go:
+
+Once we have `homebrew`, `cask` and `mas` installed, we're ready to go.
 
 ### Productivity
 
