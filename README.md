@@ -18,6 +18,12 @@ Install `mas`, a CLI for the App Store:
 brew install mas
 ```
 
+## Update all brew packages
+
+```bash
+brew cu -a -f -y
+```
+
 ## Curated list of apps
 
 Once we have `homebrew`, `cask` and `mas` installed, we're ready to go.
